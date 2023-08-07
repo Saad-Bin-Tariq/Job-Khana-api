@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: process.env.REACT_ORIGIN,
   })
 );
 app.use(xss());

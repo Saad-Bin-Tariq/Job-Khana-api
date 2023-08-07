@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "joi": "^17.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^7.3.1",
+    "python-shell": "^5.0.0",
     "rate-limiter": "^0.2.0",
     "swagger-ui-express": "^4.1.6",
     "xss-clean": "^0.1.1",
